@@ -102,6 +102,18 @@ Please, choose in which network are you deploying:
 
 [![9](https://github.com/rozoandrescamilo/Despliege-de-nodo-local-con-Lacchain/blob/main/img/9.png?raw=true "9")](https://github.com/Despliege-de-nodo-local-con-Lacchain/blob/main/img/9.png?raw=true "9")
 
+No olvidarse de escribir el enode que se muestra en las salidas, para que se le permita permisionar el nodo como se indica junto con el formato de Autorización de acuerdo comunicandose con tech.support@lac-net.net y comercial@lac-net.net 
+
+```
+TASK [lacchain-validator-node : print enode key] ***********************************************
+ok: [x.x.x.x] => {
+    "msg": "enode://cb24877f329e0e3fff6c7d7b88d601b698a9df6efbe1d91ce77130f065342b523418b38cb3c92ea3bcca15344e68c7d85a696eb9f8c0152c51b9b7b74729064e@a.b.c.d:60606"
+}
+```
+Dirección enode registrada:
+
+`enode://0c2cf6b7e3ac442d92d025af6fcec662fe45678990ab4abdaee2e9da6387fa3d3205673096387b35ee28219a2c0706b3eaa8f45cffcff65f406dc9f6bddd6be5@138.197.8.244:60606`
+
 Al finalizar todas la tareas con exito se necesita proporcionar la dirección de nodo. Se consígue ejecutando lo siguiente linea:
 
 `$ cd /root/lacchain/data`
